@@ -18,6 +18,7 @@ class AlbumTable
         return $resultSet;
     }
 
+
     public function getAlbum($id)
     {
         $id  = (int) $id;

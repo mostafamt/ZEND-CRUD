@@ -119,5 +119,10 @@ namespace Album\Controller;
         );
      }
 
+     public function testAction()
+     {
+        return new ViewModel();
+     }
+
      
  }
